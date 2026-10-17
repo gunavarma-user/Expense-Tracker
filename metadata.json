@@ -1,0 +1,6 @@
+{
+  "name": "Personal Expense Pattern Analyzer",
+  "description": "Full-stack personal finance application with secure multi-account authentication, OTP verification, password-protected savings vault, and spending pattern analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

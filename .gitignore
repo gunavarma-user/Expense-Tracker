@@ -1,0 +1,34 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+# Environment variables and secrets
+.env*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# SQLite Database and Backups
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/*.bak
+data/*.sqlite
+data/*.sqlite3
+data/expense_analyzer_backup_*
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.bak
+*.sqlite
+*.sqlite3
+backups/
+data/backups/
+
+# Playwright & Testing
+.playwright-cli/
